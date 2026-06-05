@@ -1,5 +1,5 @@
 {
-  "name": "polymind_last",
+  "name": "polymind_last1",
   "version": "0.0.0-development",
   "description": "Self-hosted AI agent interaction platform with native agentd service integration.",
   "keywords": [
@@ -22,7 +22,7 @@
   "homepage": "https://atomgit.com/openeuler/polymind#readme",
   "type": "module",
   "bin": {
-    "polymind_last": "./bin/start.js"
+    "polymind_last1": "./bin/start.js"
   },
   "files": [
     ".next/standalone/**/*",

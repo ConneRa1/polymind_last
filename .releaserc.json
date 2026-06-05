@@ -68,7 +68,7 @@
     [
       "@semantic-release/github",
       {
-        "assets": [{ "path": "dist/*.tgz", "label": "polymind_last-${nextRelease.version}.tgz" }],
+        "assets": [{ "path": "dist/*.tgz", "label": "polymind_last1-${nextRelease.version}.tgz" }],
         "successComment": false,
         "failComment": false,
         "releasedLabels": ["released"]
