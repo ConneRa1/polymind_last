@@ -35,7 +35,7 @@ jobs:
 
       - name: Add GitCode remote and fetch
         run: |
-          git remote add gitcode https://oauth2:${{ secrets.GITCODE_TOKEN }}@gitcode.com/openeuler/polymind.git
+          git remote add gitcode https://oauth2:${{ secrets.GITCODE_TOKEN }}@gitcode.com/ConneRa1/polymind_last.git
           git fetch gitcode '+refs/heads/*:refs/remotes/gitcode/*' --force
           git fetch gitcode '+refs/tags/*:refs/tags/*' --force
           echo "=== Resetting master to GitCode ==="
